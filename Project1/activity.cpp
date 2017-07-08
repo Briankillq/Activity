@@ -1,4 +1,4 @@
-#include<iostream>
+/*#include<iostream>
 
 void main()
 {
@@ -10,4 +10,4 @@ void main()
 	std::cout << "Tell me your name: " << std::endl;
 	int value1;
 	float value2;
-}
+}*/
