@@ -1,4 +1,4 @@
-/*#include<iostream>
+#include<iostream>
 #include<iomanip>
 #include<string>
 using namespace std;
@@ -43,5 +43,20 @@ void n12ton24(int time12, string ampm, int &time24)
 
 void function(int select)
 {
-	int 
+	int time12;
+	int time24;
+	string ampm;
+
+	switch (select)
+	{
+		case 1:  //24-12
+			cout << "Please enter the time: " << endl;
+			cin >> time24;
+			if (time24>=0 && time24>25)
+			{
+
+			}
+		
+		break;
+	}
 }*/
