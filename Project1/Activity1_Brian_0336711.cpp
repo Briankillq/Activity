@@ -22,10 +22,9 @@ int selection()
 void n24ton12(int &time12, int time24, string ampm)
 {
 	time24 = time12 % 12;
+	
 	if (time24 > 12)
-	{
 		ampm = "pm";
-	}
 	else
 		ampm = "am";
 
@@ -36,12 +35,13 @@ void n24ton12(int &time12, int time24, string ampm)
 
 void n12ton24(int time12, string ampm, int &time24)
 {
-	if (ampm=="am")
-	{
+	if (ampm == "am")
 		time24 = time12;
-	}
-	else if (ampm == "pm") 
-	{
+	else
+		time24 = time12 + 12;
+}
 
-	}
+void function(int select)
+{
+	int 
 }
