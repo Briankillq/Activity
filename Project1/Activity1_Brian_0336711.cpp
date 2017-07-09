@@ -91,6 +91,9 @@ void function(int select)
 		case 3:
 			cout << "Thank you for using!" << endl;
 			break;
+		default:
+			cout << "Wrong Enter. please try again";
+			
 		
 	}
 }
@@ -106,6 +109,7 @@ void main()
 		function(select);
 		x = restart();
 	} while (x == "yes");
+	cout << "Thank you!"<<endl;
 	
 	system("pause");
 	
